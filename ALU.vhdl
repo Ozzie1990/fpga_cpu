@@ -40,7 +40,7 @@ begin
                         when "000_0100" => output <= A xor B;
                         when "000_0101" => output <= A nand B;
                         when "000_0110" => output <= A nor B;
-                        when "000_0111" => output <= not A;
+                        when "000_0111" => output <= not A; --change out copy
                         when "000_1000" => output <= A srl 1;
                         when "000_1001" => output <= A sll 1;
                         when "000_1010" => output <= B srl 1;
